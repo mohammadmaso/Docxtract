@@ -24,6 +24,8 @@ Built with **Django**, **React (Inertia.js)**, **Celery**, and **Pydantic AI**. 
 ## Screenshot
 
 ![Docxtract Demo](demo.png)
+---
+![Docxtract Demo](demo2.png)
 
 ---
 
