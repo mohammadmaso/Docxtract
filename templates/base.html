@@ -1,0 +1,16 @@
+{% load django_vite %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+    <title>Parser — Structured Document Extraction</title>
+    {% vite_hmr_client %}
+    {% vite_react_refresh %}
+    {% vite_asset 'src/main.tsx' %}
+</head>
+<body class="antialiased">
+    {% block inertia %}{% endblock %}
+</body>
+</html>

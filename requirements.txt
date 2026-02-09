@@ -1,0 +1,9 @@
+django>=4.2,<6.0
+psycopg2-binary>=2.9
+python-dotenv>=1.0
+inertia-django>=1.2
+django-vite>=3.0
+celery[sqlalchemy]>=5.4
+django-celery-results>=2.5
+pydantic-ai>=1.0
+pydantic-ai-slim[retries]>=1.0
